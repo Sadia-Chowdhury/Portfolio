@@ -10,7 +10,7 @@ const Services = () => {
 
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
 
-            <div className='grid grid-cols-4 gap-6 my-10'>
+            <div className='grid grid-cols-auto gap-6 my-10'>
                 {
                     serviceData.map(({ icon, title, description, link }, index) => (
                         <div key={index} className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500'>
