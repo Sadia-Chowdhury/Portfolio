@@ -5,6 +5,8 @@ import Header from "./Components/Header";
 import About from "./Components/About"
 import Services from "./Components/Services";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
    <About />
    <Services />
    <Projects />
+   <Contact />
    </>
   );
 }
