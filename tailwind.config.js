@@ -6,7 +6,17 @@ export default {
     "./pages/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        lighthover: '#fcf4ff',
+        darkhover: '#2a004a',
+        darktheme: '#11001F',
+      },
+      fontFamily: {
+        'Outfit': ['Outfit', 'sans-serif'],
+        'Ovo': ['Ovo', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 };
